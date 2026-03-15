@@ -1,0 +1,41 @@
+[
+  {
+    "id": "MATH-001",
+    "subject": "mathematics",
+    "topic": "Operations on Sets",
+    "subtopic": "Subsets",
+    "gradeTag": 8,
+    "difficulty": "medium",
+    "type": "mcq",
+    "stem": "If A = {1, 2, 3}, what is the number of elements in the power set P(A)?",
+    "options": ["6", "8", "3", "9"],
+    "correctIndex": 1,
+    "explanation": "The power set of a set with n elements has 2^n elements. Since |A| = 3, |P(A)| = 2³ = 8."
+  },
+  {
+    "id": "MATH-002",
+    "subject": "mathematics",
+    "topic": "Operations on Sets",
+    "subtopic": "Venn Diagrams",
+    "gradeTag": 8,
+    "difficulty": "easy",
+    "type": "mcq",
+    "stem": "In set theory, (A ∪ B)' is equal to:",
+    "options": ["A' ∪ B'", "A' ∩ B'", "A ∩ B", "B' ∪ A'"],
+    "correctIndex": 1,
+    "explanation": "According to De Morgan's Law, the complement of the union of two sets is equal to the intersection of their complements."
+  },
+  {
+    "id": "MATH-003",
+    "subject": "mathematics",
+    "topic": "Algebra",
+    "subtopic": "Polynomials",
+    "gradeTag": 8,
+    "difficulty": "medium",
+    "type": "mcq",
+    "stem": "Simplify: (x + 3)(x - 3)",
+    "options": ["x² + 6x + 9", "x² - 9", "x² + 9", "x² - 6x + 9"],
+    "correctIndex": 1,
+    "explanation": "This follows the difference of squares identity (a+b)(a-b) = a² - b²."
+  }
+]

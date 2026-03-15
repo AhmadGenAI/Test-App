@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ENG-001",
+    "subject": "english",
+    "topic": "Parts of Speech",
+    "subtopic": "Verbs",
+    "gradeTag": 8,
+    "difficulty": "easy",
+    "type": "mcq",
+    "stem": "Which of these is a verb?",
+    "options": ["Beautifully", "Run", "Happiness", "Quick"],
+    "correctIndex": 1,
+    "explanation": "'Run' is an action word, which makes it a verb. 'Beautifully' is an adverb, 'Happiness' is a noun, and 'Quick' is an adjective."
+  }
+]

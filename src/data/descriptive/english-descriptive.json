@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ENG-DESC-001",
+    "type": "comprehension",
+    "title": "The Rise of Technology",
+    "passage": "Technology has transformed the way we live and work. From the invention of the wheel to the modern internet, human progress has been driven by innovation. Today, digital tools allow us to communicate across continents in an instant. However, this progress comes with challenges such as privacy concerns and the digital divide...",
+    "questions": [
+      "What has driven human progress according to the passage?",
+      "Name one challenge mentioned in the text."
+    ],
+    "modelAnswers": [
+      "Human progress has been driven by innovation, ranging from the wheel to the internet.",
+      "Challenges include privacy concerns and the digital divide."
+    ]
+  },
+  {
+    "id": "ENG-DESC-002",
+    "type": "essay",
+    "prompt": "Write a descriptive essay on 'My Favorite Personality' (150-200 words).",
+    "tips": ["Define the person", "Mention their achievements", "Explain why you admire them", "Conclude with their impact"],
+    "sample": "My favorite personality is Quaid-e-Azam Muhammad Ali Jinnah. He was a man of great integrity and vision..."
+  }
+]
