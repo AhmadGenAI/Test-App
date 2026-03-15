@@ -19,15 +19,18 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 18
 
-      - name: Verify Files
+      - name: Diagnostic Info
         run: |
+          node -v
+          npm -v
+          ls -la
+          cat package.json
           ls -R src/
-          ls -R public/
 
       - name: Install Dependencies
-        run: npm install
+        run: npm install --verbose
 
       - name: Build Web App
         run: npm run build
