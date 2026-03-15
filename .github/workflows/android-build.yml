@@ -40,6 +40,18 @@ jobs:
           name: npm-logs
           path: npm_logs.txt
 
+      - name: Push Logs to Debug Branch
+        if: always()
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b debug-logs || git checkout debug-logs
+          git add npm_logs.txt
+          git commit -m "Debug: npm install logs" || echo "No changes to commit"
+          git push origin debug-logs --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Build Web App
         run: npm run build
 
